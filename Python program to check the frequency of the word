@@ -1,0 +1,8 @@
+1.str=input("Enter a string")
+2.print("string is ",str)
+3.count={}
+4.for x in str:
+5.if x in count.keys():
+6.else:
+7.count[x]=1
+8.print(count)
